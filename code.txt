@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Css Section -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="carousel.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link href="product.css" rel="stylesheet">
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/features/">
+  <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="custom.css">
+  <link rel="stylesheet" href="style2.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Css Ends -->
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+            <img class="nav-img" src="https://livedemo00.template-help.com/wt_51678/images/logo-default-380x100.png" alt="">
+    
+          <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+            <li><a href="#" class="nav-link px-2 link-secondary">Home</a></li>
+            <li><a href="#" class="nav-link px-2 link-dark">Features</a></li>
+            <li><a href="#" class="nav-link px-2 link-dark">Pricing</a></li>
+            <li><a href="#" class="nav-link px-2 link-dark">FAQs</a></li>
+            <li><a href="#" class="nav-link px-2 link-dark">About</a></li>
+          </ul>    
+          <div class="col-md-3 text-end">
+            <button type="button" class="btn btn-outline-warning">Login</button>
+          </div>
+        </header>
+      </div>
+
+      <!-- Corousel Start -->          
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+                  
+          <!-- The slideshow/carousel -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="https://livedemo00.template-help.com/wt_51678/images/slider-slide-2-1920x749.jpg" alt="Los Angeles" class="d-block" style="width:100%">
+              <div class="carousel-caption">
+                <h3>Transforming Your Space</h3>
+                <p class="carousel-para">Our company has been the leading provider of quality tiles and tile design services to customers since 1999. We pay attention to every aspect of our work.</p>
+                <button type="button" class="btn btn-warning btn-lg" style="color: white;">View All Collection</button>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="https://livedemo00.template-help.com/wt_51678/images/slider-slide-3-1920x749.jpg" alt="Chicago" class="d-block" style="width:100%">
+              <div class="carousel-caption">
+                <h3>Wide Product Variety</h3>
+                <p class="carousel-para">Our products have a variety of textures, finishes and performance features that allow you to choose just what you need for your new interior.</p>
+                <button type="button" class="btn btn-warning btn-lg" style="color: white;">View All Collection</button>
+              </div> 
+            </div>
+            <div class="carousel-item">
+              <img src="https://livedemo00.template-help.com/wt_51678/images/slider-slide-1-1920x749.jpg" alt="New York" class="d-block" style="width:100%">
+              <div class="carousel-caption">
+                <h3>Creating Coziness</h3>
+                <p class="carousel-para">Quarex is an award-winning ceramic tiles manufacture & design agency helping people across the USA to improve their houses interior using the best ceramics.</p>
+                <button type="button" class="btn btn-warning btn-lg" style="color: white;">View All Collection</button>
+              </div>  
+            </div>
+          </div>
+          
+          <!-- Left and right controls/icons -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+
+      <!-- Carousel Ends Here -->             
+        <section class="py-5 text-center container">
+          <div class="row py-lg-5">
+            <div class="col-lg-6 col-md-8 mx-auto">
+              <h1 class="fw-light">Our Collection</h1>
+              <p class="lead text-muted">We are a team that brings together top-notch refinement and exports it to more than 110 countries the world. Our products form the basics of the best interiors worldwide.</p>
+              <!-- <p>
+                <a href="#" class="btn btn-primary my-2">الدعوة الرئيسية للعمل</a>
+                <a href="#" class="btn btn-secondary my-2">عمل ثانوي</a>
+              </p> -->
+            </div>
+          </div>
+        </section>
+      
+        <div class="album py-5 bg-light">
+          <div class="container">
+      
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img src="https://livedemo00.template-help.com/wt_51678/images/product-01-470x303.jpg" alt="">
+      
+                  <div class="card-body">
+                    <p class="card-text">We are a team that brings together top-notch refinement and exports it to more than 110.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-warning" style="margin-right: 5px;">Buy Now</button>
+                        <button type="button" class="btn btn-sm btn-outline-primary">Add to Cart</button>
+                      </div>
+                      <small class="text-muted">$99.99</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img src="https://livedemo00.template-help.com/wt_51678/images/product-02-470x303.jpg" alt="">
+      
+                  <div class="card-body">
+                    <p class="card-text">We are a team that brings together top-notch refinement and exports it to more than 110.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-warning" style="margin-right: 5px;">Buy Now</button>
+                        <button type="button" class="btn btn-sm btn-outline-primary">Add to Cart</button>
+                      </div>
+                      <small class="text-muted">$99.99</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img src="https://livedemo00.template-help.com/wt_51678/images/product-03-470x303.jpg" alt="">
+      
+                  <div class="card-body">
+                    <p class="card-text">We are a team that brings together top-notch refinement and exports it to more than 110.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-warning" style="margin-right: 5px;">Buy Now</button>
+                        <button type="button" class="btn btn-sm btn-outline-primary">Add to Cart</button>
+                      </div>
+                      <small class="text-muted">$99.99</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+      
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img src="https://livedemo00.template-help.com/wt_51678/images/product-04-470x303.jpg" alt="">
+      
+                  <div class="card-body">
+                    <p class="card-text">We are a team that brings together top-notch refinement and exports it to more than 110.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-warning" style="margin-right: 5px;">Buy Now</button>
+                        <button type="button" class="btn btn-sm btn-outline-primary">Add to Cart</button>
+                      </div>
+                      <small class="text-muted">$99.99</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img src="https://livedemo00.template-help.com/wt_51678/images/post-1-524x355.jpg" alt="">
+      
+                  <div class="card-body">
+                    <p class="card-text">We are a team that brings together top-notch refinement and exports it to more than 110.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-warning" style="margin-right: 5px;">Buy Now</button>
+                        <button type="button" class="btn btn-sm btn-outline-primary">Add to Cart</button>
+                      </div>
+                      <small class="text-muted">$99.99</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img src="https://livedemo00.template-help.com/wt_51678/images/post-2-524x355.jpg" alt="">
+      
+                  <div class="card-body">
+                    <p class="card-text">We are a team that brings together top-notch refinement and exports it to more than 110.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-warning" style="margin-right: 5px;">Buy Now</button>
+                        <button type="button" class="btn btn-sm btn-outline-primary">Add to Cart</button>
+                      </div>
+                      <small class="text-muted">$99.99</small>
+                    </div>
+                  </div>
+                </div>
+              </div>            
+      <!-- Product Section Ends here -->
+      <!-- Recently Completed Projects Starts here -->
+
+      <div class="container px-4 py-5" id="custom-cards" style="height: 585px; width: 1160px;">
+        <h2 class="pb-2 border-bottom trends">Latest Trends</h2>
+    
+        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-4 shadow-lg" style="background-image: url('https://livedemo00.template-help.com/wt_51678/images/post-2-524x355.jpg'); background-size: cover;">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Short title, long jacket</h2>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto">
+                    <!-- <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white"> -->
+                  </li>
+                  <li class="d-flex align-items-center me-3">
+                    <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
+                    <small>Mumbai</small>
+                  </li>
+                  <li class="d-flex align-items-center">
+                    <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"/></svg>
+                    <small>4d</small>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-4 shadow-lg" style="background-image: url('https://livedemo00.template-help.com/wt_51678/images/slider-slide-1-1920x749.jpg'); background-size: cover;">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Much longer title that wraps to multiple lines</h2>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto">
+                    <!-- <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white"> -->
+                  </li>
+                  <li class="d-flex align-items-center me-3">
+                    <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
+                    <small>Delhi</small>
+                  </li>
+                  <li class="d-flex align-items-center">
+                    <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"/></svg>
+                    <small>5d</small>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-4 shadow-lg" style="background-image: url('https://livedemo00.template-help.com/wt_51678/images/product-02-470x303.jpg'); background-size: cover;">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Another longer title belongs here</h2>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto">
+                    <!-- <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white"> -->
+                  </li>
+                  <li class="d-flex align-items-center me-3">
+                    <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
+                    <small>California</small>
+                  </li>
+                  <li class="d-flex align-items-center">
+                    <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"/></svg>
+                    <small>5d</small>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Recently Completed Projects Ends here -->
+      <!-- Personal Information -->
+      <h2
+       style="text-align: center; width: 1263px; height: 28px; padding: 90px 0 120px 0;">Our Team</h2>
+<div class="row" style="height: 530px; width: 1287px;">
+  <div class="column">
+    <div class="card">
+      <img src="https://images.pexels.com/photos/10592693/pexels-photo-10592693.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="Jane" style="width:100%">
+      <div class="container">
+        <h2>Jane Doe</h2>
+        <p class="title">CEO & Founder</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>sandipani@gmail.com</p>
+        <p><button class="button" style="background-color: #0d6efd;">Contact Us</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="https://images.pexels.com/photos/10592693/pexels-photo-10592693.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="Mike" style="width:100%">
+      <div class="container">
+        <h2>Mike Ross</h2>
+        <p class="title">Art Director</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>sandipani@gmail.com</p>
+        <p><button class="button" style="background-color: #0d6efd;">Contact Us</button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="https://images.pexels.com/photos/10592693/pexels-photo-10592693.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="John" style="width:100%">
+      <div class="container">
+        <h2>John Doe</h2>
+        <p class="title">Designer</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>sandipani@gmail.com</p>
+        <p><button class="button" style="background-color: #0d6efd;">Contact Us</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+      <!-- Personal Information ends -->
+
+      <!-- Footer Starts Here -->      
+        <footer class="py-5" style="width: 1116px;">
+          <div class="row">
+            <div class="col-6 col-md-2 mb-3" style="width: 166px;">
+              <h5>Section</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+              </ul>
+            </div>
+      
+            <div class="col-6 col-md-2 mb-3" style="width: 166px;">
+              <h5>Section</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+              </ul>
+            </div>
+      
+            <div class="col-6 col-md-2 mb-3" style="width: 166px;">
+              <h5>Section</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+              </ul>
+            </div>
+      
+            <div class="col-md-5 offset-md-1 mb-3">
+              <form>
+                <h5>Contact Us</h5>
+                <p>Subscribe to our Newsletter.</p>
+                <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                  <label for="newsletter1" class="visually-hidden">Email address</label>
+                  <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                  <button class="btn btn-primary" type="button">Subscribe</button>
+                </div>
+              </form>
+            </div>
+          </div>
+      
+          <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+            <p>&copy; 2022 Company, Inc. All rights reserved.</p>
+            <ul class="list-unstyled d-flex">
+              <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
+              <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
+              <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
+            </ul>
+          </div>
+        </footer>
+            
+          <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+      <!-- Footer Ends Here -->
+    
+</body>
+</html>
